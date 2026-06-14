@@ -42,7 +42,7 @@ Table `Customers`:
 
 ### Command line (MSBuild)
 ```bat
-msbuild CustomerInfo.sln /p:Configuration=Release /p:Platform="Any CPU"
+msbuild CustomerInfo.sln /p:Configuration=Release /p:Platform="x86"
 bin\Release\CustomerInfo.exe
 ```
 
