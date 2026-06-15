@@ -4,7 +4,10 @@
       "Bash(gh auth *)",
       "Bash(git --version)",
       "PowerShell(gh auth status 2>&1)",
-      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"User\"\\); gh auth status 2>&1)"
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"User\"\\); gh auth status 2>&1)",
+      "Bash(ls \"C:\\\\Users\\\\pndnr\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\bc817dd4-57bc-4eb2-b727-214585131d06\\\\63e31d68-6914-49f6-99a6-cde6c1e3b2cf\\\\skills\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
